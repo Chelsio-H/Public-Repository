@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["pizza_sales_excel_file"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.146.1026.0 (25.08)+fb98ab832373de81dccd5c01cd96306a48477556
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table pizza_sales_excel_file
+ref table DateTableTemplate_bd655b8d-8483-477e-9b59-bb6db516e4d5
+ref table LocalDateTable_5f3e36a9-43c3-4a42-8fdb-963025b73c46
+
+ref cultureInfo en-US
+

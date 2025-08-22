@@ -1,0 +1,5 @@
+relationship 59ee9d5d-fd30-4437-8127-fa25f78239a1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: pizza_sales_excel_file.order_date
+	toColumn: LocalDateTable_5f3e36a9-43c3-4a42-8fdb-963025b73c46.Date
+

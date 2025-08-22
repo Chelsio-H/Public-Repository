@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Pizza Sales Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bcec4296-db39-484c-92d1-d2c6cf05fc42"
+  }
+}
